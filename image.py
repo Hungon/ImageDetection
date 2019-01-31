@@ -3,7 +3,7 @@ import cv2
 
 
 if __name__ == '__main__':
-    img = cv2.imread('watch.jpg',cv2.IMREAD_COLOR)
+    img = cv2.imread('sample_images/watch.jpg',cv2.IMREAD_COLOR)
     cv2.line(img,(0,0),(200,300),(255,255,255),50)
     cv2.rectangle(img,(500,250),(1000,500),(0,0,255),15)
     cv2.circle(img,(447,63), 63, (0,255,0), -1)
